@@ -2,9 +2,11 @@
 
 ## Introduction
 
-This web application uses GitGraph.js to provide an easy interface to visualise git branches :)
+This web application uses [GitGraph.js](http://gitgraphjs.com/) to provide an easy interface to visualise git branches :)
 It offers an enhanced set of git commands that focus on faking commits and branches, making it easier
 to work with than using real git commands.
+
+![Screenshot](/screenshots/00.png)
 
 ## Prerequisites
 
