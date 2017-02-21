@@ -6,6 +6,8 @@ This web application uses [GitGraph.js](http://gitgraphjs.com/) to provide an ea
 It offers an enhanced set of git commands that focus on faking commits and branches, making it easier
 to work with than using real git commands.
 
+You can see it in action [here](http://branch.saturnine.io).
+
 ![Screenshot](/screenshots/00.png)
 
 ## Prerequisites
