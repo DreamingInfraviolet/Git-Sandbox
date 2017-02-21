@@ -1,0 +1,11 @@
+This project includes code from the following libraries, which are licensed as shown.
+
+bootstrap: MIT
+bootstrap-colorpicker: Apache License, Version 2.0
+jquery: MIT
+jquery-custom-content-scroller: MIT
+GitBranch.js (source code was modified): MIT
+sweetalert: MIT
+git logo: Creative Commons Attribution 3.0 Unported License (from https://git-scm.com/downloads/logos)
+almond: MIT https://github.com/requirejs/almond/blob/master/LICENSE
+tinycolor: MIT

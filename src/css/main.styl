@@ -1,0 +1,94 @@
+@require ("common")
+
+body, html
+    overflow hidden
+    height 100%
+    width 100%
+    background-color cPrimaryBodyBackground
+    color ctNormal
+    font-family "Courier New", Courier, monospace
+
+#gitGraph
+    margin-left 5px
+    margin-top 5px
+
+.container-fluid
+    height 100%
+
+// The entire console box
+#console
+    background-color cPrimaryForeground
+    padding 0
+    margin 0
+    font-size 1.1em
+    position relative
+    height 100%
+
+#console-content
+    width 100%
+    height 94%
+
+#console-output-container
+    margin 0
+    padding 0
+    margin-bottom 7px
+    height 100%
+    width 100%
+
+// Output box where commands are printed
+#console-output
+    height 100%
+
+#console-input-container
+    position absolute
+    left 0px
+    bottom 0px
+    width 100%
+
+// Input box where one types in commands
+#console-input
+    font-size 1.3em
+    border 0
+    color ctInput
+    outline none
+
+// Disable awkward padding around the page
+.container-fluid
+    padding 0
+    margin 0
+
+
+// Definition block tweaking
+dt 
+    font-size 1.1em
+dd 
+    text-indent 20px
+
+// Set button colour
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:link, .btn-primary:focus,
+.btn-primary.active
+    border-color cPrimaryBodyBackground !important
+
+#loadSaveButtons
+    position relative
+
+#loadSaveButtons > *
+    width 50%
+    margin 0
+    float left
+
+#loadSaveButtons > * > *
+    width 100%
+
+#mainView
+    background-color cPrimaryBodyBackground
+    height 100%
+    padding 0
+    margin 0
+
+#downloadButton > *, #orientationButton > *
+    margin 0
+    width 100%
+
+.modal
+    color #333

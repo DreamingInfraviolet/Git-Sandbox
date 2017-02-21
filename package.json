@@ -1,0 +1,36 @@
+{
+    "name": "git-sandbox",
+    "version": "0.1.0",
+    "description": "This is a tool that provides a convenient interface to use GitGraph.js",
+    "author": "Anima Seteine",
+    "keywords": [
+        "gitgraph",
+        "git",
+        "branches",
+        "branch"
+    ],
+    "dependencies": {
+        "browser-sync": "2.x.x",
+        "del": "2.x.x",
+        "gulp": "3.x.x",
+        "gulp-clean-css": "2.x.x",
+        "gulp-concat": "2.x.x",
+        "gulp-concat-css": "2.x.x",
+        "gulp-flatten": "0.x.x",
+        "gulp-requirejs-optimize": "1.x.x",
+        "gulp-rework": "1.x.x",
+        "gulp-rework-import": "0.x.x",
+        "gulp-stylus": "2.x.x",
+        "gulp-typescript": "2.x.x",
+        "gulp-uglify": "2.x.x",
+        "gulp-util": "3.x.x",
+        "lodash.defaults": "4.x.x",
+        "parse-import": "2.x.x",
+        "rework-plugin-url": "1.x.x",
+        "through2": "2.x.x",
+        "vinyl-paths": "2.x.x",
+        "vinyl-sourcemaps-apply": "0.x.x"
+    },
+    "private": true,
+    "license": "MIT"
+}

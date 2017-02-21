@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Git Branching</title>
+        
+        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+        <link rel="stylesheet" type="text/css" href="third_party/all.concat.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" id="orientation-stylesheet" href="css/vertical.css" />
+    </head>
+    <body>
+        <!-- Generic Modal -->
+        <div id="genericModal" class="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                        <h4 class="modal-title" id="genericModalTitle"></h4>
+                    </div>
+                    <div class="modal-body" id="genericModalBody">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="genericModalButton" class="btn bttn" data-dismiss="modal">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Generic Modal -->
+        <!-- Main Body -->
+        <div class="container-fluid">
+            <!-- Console -->
+            <div class="col-xs-2" id="console">
+                <div id="console-content">
+                    <!-- Console Output -->
+                    <div id="console-output-container">
+                        <div id="console-output">
+                            <div id="console-output-start"></div>
+                        </div>
+                    </div>
+                    <!-- End Console Output -->
+                    <!-- Console Input -->
+                    <div id="console-input-container">
+                        <b><div id="current-branch"></div></b>
+                        <input type="text" id="console-input" autofocus autocomplete="nerp">
+                    </div>
+                    <!-- End Console Input -->
+                    <!--<div id="dragbar"></div>-->
+                </div>
+            </div>
+            <!-- End Console -->
+            <!-- Main Graph Window -->
+            <div class="col-xs-10" id="mainView">
+                <!-- Control Buttons -->
+                <div id="ControlButtons" class="btn-group-vertical">
+                    <a id="downloadButton"><button type="button" class="btn btn-primary text-info">Capture</button></a>
+                    <div id="loadSaveButtons">
+                        <a id="saveButton"><button type="button" id="saveButtonInner" class="btn btn-primary text-info">Save</button></a>
+                        <div id="loadButtonOuter"> 
+                            <input type="file" id="loadButton" class="hidden">
+                            <label for="loadButton" class="btn btn-primary text-info">Load</label>
+                        </div>
+                    </div>
+                    <a id="orientationButton"><button type="button" id="toggleOrientationInner" class="btn btn-primary text-info">Orientation</button></a> 
+                    <div id="bgColourPicker"></div>
+                    <div id="fgColourPicker"></div>
+                </div>
+                <!-- End Control Buttons -->
+                <canvas id="gitGraph"></canvas>
+            </div>
+            <!-- Main Graph Window -->
+        </div>
+        <!-- End Main Body -->
+    </body>
+    <script src="third_party/all.concat.min.js"></script>
+    <script src="js/main.js"></script>
+</html>
